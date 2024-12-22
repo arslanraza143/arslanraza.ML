@@ -1,0 +1,127 @@
+extensions for the AI ML
+screen map, code map, juputor
+
+ipynb:
+python jupitor notebook
+ipy:
+only run python file
+
+markdown is used for frontend language 
+	when i tries to write code we write some info about project email and further
+
+shift+enter to run in the markdown for frontend
+we can also write html code in the markdown
+html is used in python for desioning purpose
+	
+panadas is to look into dataframe
+
+features is the column in the dataset in the excel
+indexes is the rows in the dataset in the excel
+
+
+----------------------------dataloading in the python
+1- #install Libraries
+%pip install pandas
+
+2- #to import the padas libaries // pd is used to call the pandas
+import pandas as pd 
+
+3- #to read data we use pd
+pd.read_csv("data.csv")
+
+4- df = pd.read_csv("data.csv")
+
+5- print(df)
+
+6- %pip install panadas openpyxl
+
+7- df2 = pd.read_excel("data.xlsx")
+
+8- 
+
+
+-------- to check the account and assign another useraccount------------------
+git config --global user.name
+
+git config --global user.name"arslanraza143"
+
+git config --global user.email"arslanraza2022@gmail.com"
+
+// to initialize 
+git init
+
+// to add all files 
+git add . 
+
+//to comit all the files to the git hub then it will ask where to commit then give the origin/ repository
+git commit -m "this is my first git project on Artificial Intelligence project"
+
+// now give the remote or reposortry 
+git remote add origin https://github.com/arslanraza143/arslanraza.ML.git
+
+// to check the origin/remote
+git remote -v
+
+// to change the origin
+
+git remote set-url origin https://github.com/user/repo2.git
+
+// now check the branch
+git branch
+
+//now push the git
+git push -u origin master
+
+// if git not push then pull the git
+git pull origin master
+
+// to create branch 
+git branch ml
+
+// to switch to branch 
+git switch ml
+
+// to check branch 
+git branch
+
+// to push to another 
+git push origin ml
+
+// to clone the project of GitHub in my directory 
+git clone  https://github.com/jasonwei20/eda_nlp.git
+
+
+// get all the files 
+git pull origin master --rebase
+
+git push -u origin master
+
+
+Machine learning steps 
+data selection 
+pre processing 
+apply model 
+select best model
+result
+
+20/12-2024
+AI ML
+Step One
+	Markdown
+
+Step Two
+	#Libraries Install
+	%pip install pandas
+
+	#importing libraries 
+	import panadas as pd
+
+Step Three
+	loading data
+	there is no any case sensitive for the loading data
+
+Step Four
+	insall library of excel
+	%pip install pandas openpyxl
+
+task open show the mid of the rows of file and open all type of files
